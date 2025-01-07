@@ -11,7 +11,7 @@ class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path.endswith(".jpg"):
             file_path = os.getcwd() + "\\image.jpg"
-            print(f"file path is {file_path}")
+            # print(f"file path is {file_path}")
             if os.path.exists(file_path):
                 self.send_response(200)
                 self.send_header("Content-type", "image/jpeg")
@@ -101,7 +101,7 @@ class handler(BaseHTTPRequestHandler):
             titles = ""
             for title in rand_anime:
                 titles += f"'{title}',"
-            # print(titles)
+            print(titles)
             game_html = ""
             game_html += """
 <!DOCTYPE html>

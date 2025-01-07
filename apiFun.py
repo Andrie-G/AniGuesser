@@ -22,8 +22,8 @@ def get_rand_anime():
             return False
         # if all checks work, convert the json data into a python dictionary
         anime_description = response.json()
-        # checks if the response from the api is working and worth using in game
         # print(anime_description)
+        # checks if the response from the api is working and worth using in game
         is_valid_anime = valid_anime(anime_description)
      
     # after the checks are complete, we then save the info needed for the website
@@ -89,7 +89,7 @@ def valid_anime(description):
         return False
     if description["data"]["images"]["jpg"] is None:
         return False
-    if description["data"]["score"] == 0 and description["data"]["score"] < 7:
+    if description["data"]["score"] > 0 and description["data"]["score"] < 7:
         return False
         
 

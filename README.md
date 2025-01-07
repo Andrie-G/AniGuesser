@@ -19,16 +19,22 @@ AniGuesser is an anime guessing game that can run in your browser!
 ## Notes
 - Either the english or japanese name of an anime can be guessed using english characters
 This means both "Sousou no Frieren" and "Frieren: Beyond Journey's End" are vaild answers
-- guesses are not case sensitive
+- Guesses are not case sensitive
 - The guess of the anime has to be exact. For example if the correct answer is "Frieren: Beyond Journey's End", guessing "frieren" will result in an incorrect answer
+- Pressing Start or Try Again will cause the webpage to load for a few seconds if needed, this is natural as it is confirming whether a valid anime is found
 # Later Improvements
 Some planned features to be implemented later:
 - manga guessing
 - character guessing
 - database integration for videos and anime
 # Video Demonstation
+https://github.com/user-attachments/assets/3bfca94f-f6f3-4bad-9f0b-9576540b5a48
 
-# Help used to create this project
+# Details 
+This project is using the Jikan API. It is using the public API key that can be found at the offical Jikan website, https://jikan.moe/
+
+The server calls the api for a random anime, it then takes the anime image and titles to displays on the localhost (AniGuesser webpage) 
+# Resources used to create this project
 https://stackoverflow.com/questions/20309456/how-do-i-call-a-function-from-another-py-file
 https://www.w3schools.com/python/module_requests.asp
 https://www.w3schools.com/python/ref_requests_response.asp
