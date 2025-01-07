@@ -28,6 +28,10 @@ Some planned features to be implemented later:
 - database integration for videos and anime
 # Video Demonstation
 
+
+https://github.com/user-attachments/assets/3bfca94f-f6f3-4bad-9f0b-9576540b5a48
+
+
 # Help used to create this project
 https://stackoverflow.com/questions/20309456/how-do-i-call-a-function-from-another-py-file
 https://www.w3schools.com/python/module_requests.asp
