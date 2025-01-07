@@ -33,8 +33,13 @@ https://github.com/user-attachments/assets/3bfca94f-f6f3-4bad-9f0b-9576540b5a48
 # Details 
 This project is using the Jikan API. It is using the public API key that can be found at the offical Jikan website, https://jikan.moe/
 
+
+https://github.com/user-attachments/assets/3bfca94f-f6f3-4bad-9f0b-9576540b5a48
+
+
 The server calls the api for a random anime, it then takes the anime image and titles to displays on the localhost (AniGuesser webpage) 
 # Resources used to create this project
+https://www.geeksforgeeks.org/how-to-make-api-calls-using-python/
 https://stackoverflow.com/questions/20309456/how-do-i-call-a-function-from-another-py-file
 https://www.w3schools.com/python/module_requests.asp
 https://www.w3schools.com/python/ref_requests_response.asp
